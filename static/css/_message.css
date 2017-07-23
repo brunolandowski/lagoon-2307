@@ -21,6 +21,7 @@
 }
 .message .inbox article,
 .message .opened article {
+  cursor: pointer;
   margin-bottom: 10px;
   display: inline-block;
   width: calc(50% - 20px);
@@ -75,7 +76,7 @@
   font-weight: 100;
   font-size: 12px;
   line-height: 10px;
-  color: #bbb;
+  color: #999;
   float: right;
 }
 .message .inbox article .content .sender,

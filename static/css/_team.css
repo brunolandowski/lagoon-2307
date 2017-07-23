@@ -19,8 +19,9 @@
 .bloclist .peoples .group .peopleimg {
   background: #333;
   border-radius: 50px;
-  height: 70px;
-  width: 70px;
+  margin-top: 15px;
+  height: 85px;
+  width: 85px;
   display: inline-block;
 }
 .bloclist .peoples .group .people {
@@ -46,7 +47,6 @@
   font-weight: 700;
 }
 .bloclist .peoples .group .people article {
-  margin-top: 15px;
   vertical-align: top;
   margin-left: 20px;
   display: inline-block;

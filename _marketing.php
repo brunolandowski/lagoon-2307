@@ -52,42 +52,47 @@ include "header.php";
 
 
 <div class="stock-prices">
-    <article>
-        <img src="static/img/common/marketing/leaflet.png">
-        <h2>BROCHURE ET SPECS</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam.</p>
-        <button>ALLER SUR LASSY</button>
-    </article>
-     <article>
-        <img src="static/img/common/marketing/screen.png">
-        <h2>SUPPORTS DIGITAUX</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam.</p>
-        <button>VOIR LES TARIFS</button>
-    </article>
-     <article>
-        <img src="static/img/common/marketing/flag.png">
-        <h2>MATÉRIEL PROMOTIONNEL</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam.</p>
-        <button>VOIR LES TARIFS</button>
-    </article>
-     <article>
-        <img src="static/img/common/marketing/news.png">
-        <h2>REVUES DE PRESSE</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam.</p>
-        <button>VOIR LES TARIFS</button>
-    </article>
-     <article>
-        <img src="static/img/common/marketing/picture.png">
-        <h2>PHOTOS</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam.</p>
-        <button>VOIR LES TARIFS</button>
-    </article>
-     <article>
-        <img src="static/img/common/marketing/note.png">
-        <h2>DOCUMENTS COMMERCIAUX</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam.</p>
-        <button>VOIR LES TARIFS</button>
-    </article>
+    <div class="row">
+        <article>
+            <img src="static/img/common/marketing/leaflet.png">
+            <h2>BROCHURE ET SPECS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam. Malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam.</p>
+            <button>ALLER SUR LASSY</button>
+        </article>
+         <article>
+            <img src="static/img/common/marketing/screen.png">
+            <h2>SUPPORTS DIGITAUX</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum.</p>
+            <button>VOIR LES TARIFS</button>
+        </article>
+         <article>
+            <img src="static/img/common/marketing/flag.png">
+            <h2>MATÉRIEL PROMOTIONNEL</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam.</p>
+            <button>VOIR LES TARIFS</button>
+        </article>
+    </div>
+
+    <div class="row">
+         <article>
+            <img src="static/img/common/marketing/news.png">
+            <h2>REVUES DE PRESSE</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam.</p>
+            <button>VOIR LES TARIFS</button>
+        </article>
+         <article>
+            <img src="static/img/common/marketing/picture.png">
+            <h2>PHOTOS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla. Quisque in elit a nibh efficitur varius eu et eros. Maecenas odio enim, posuere at porttitor vitae, volutpat in quam.</p>
+            <button>VOIR LES TARIFS</button>
+        </article>
+         <article>
+            <img src="static/img/common/marketing/note.png">
+            <h2>DOCUMENTS COMMERCIAUX</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum sodales pellentesque. Ut posuere rhoncus tellus ut dictum. Proin quis aliquam velit. Nam id lacus feugiat, malesuada augue quis, bibendum nulla.</p>
+            <button>VOIR LES TARIFS</button>
+        </article>
+    </div>
 </div>
 
 

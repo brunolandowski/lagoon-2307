@@ -1,7 +1,7 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 html {
-  color: #222;
+  color: #000;
   font-size: 1em;
   line-height: 1.4;
   overflow-x: hidden;
@@ -274,6 +274,7 @@ header .nav {
   font-weight: 600;
 }
 header .nav li {
+  cursor: pointer;
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -294,8 +295,30 @@ header .nav li.active {
 header .nav li:hover {
   border-bottom: 3px solid #bababa;
 }
+header .nav li p {
+  text-transform: uppercase;
+  color: white;
+  display: none;
+  background: #353942;
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+  border-left: 1px solid #51596b;
+  border-right: 1px solid #51596b;
+  border-bottom: 1px solid #51596b;
+}
+header .nav li p.selected {
+  color: #00adbb;
+}
+header .nav li p:hover {
+  background: #f5f5f5;
+  color: #353942;
+}
+header .nav li span {
+  height: 70px;
+  width: 215px;
+}
 header .nav li a {
-  display: block;
   width: 100%;
   height: 100%;
 }
@@ -1408,7 +1431,7 @@ input[type=text].full {
 }
 .lateralList .content .peoples .people .call b {
   font-weight: 700;
-  color: #00adbb;
+  color: #52d2d4;
   text-transform: uppercase;
 }
 .lateralList .content .peoples .people .web {
@@ -1419,7 +1442,7 @@ input[type=text].full {
   margin-top: 10px;
 }
 .lateralList .content .peoples .people .web b {
-  color: #00adbb;
+  color: #52d2d4;
   text-transform: uppercase;
 }
 @media screen and (max-width: 1280px) {
@@ -1989,7 +2012,7 @@ input[type=text].full {
 }
 .bloclist .content .peoples .people .call b {
   font-weight: 700;
-  color: #00adbb;
+  color: #52d2d4;
   text-transform: uppercase;
 }
 .bloclist .content .peoples .people .web {
@@ -2000,7 +2023,7 @@ input[type=text].full {
   margin-top: 10px;
 }
 .bloclist .content .peoples .people .web b {
-  color: #00adbb;
+  color: #52d2d4;
   text-transform: uppercase;
 }
 @media screen and (max-width: 1280px) {

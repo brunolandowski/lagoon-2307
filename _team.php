@@ -38,21 +38,21 @@ include "header.php";
                         <article>
                             <div class="name">LOÏC LAGRANGE</div>
                             <span class="function">RESPONSABLE COMMERCIAL</span>
-                            
-
-                            <div class="clearfix"></div>
-                        </article>
-                        
-                        <div class="contacts">
+                             <div class="contacts">
                                 <div class="call">
                                     <div><b>Tel :</b> +15102362633</div>
                                     <div><b>Mob :</b> +15102362633</div>
                                     <div><b>Fax :</b> +15102362633</div>
                                     <div class="mail"><b>mail :</b> mail@mail.mail</div>
                                 </div>
-                        </div>
+                            </div>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
+                            <div class="clearfix"></div>
+                        </article>
+                        
+                       
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
                         
                     </div>
 
@@ -63,19 +63,19 @@ include "header.php";
                         <article>
                             <div class="name">LOÏC LAGRANGE</div>
                             <span class="function">RESPONSABLE COMMERCIAL</span>
-                            
-
-                            <div class="clearfix"></div>
-                        </article>
-                        
-                        <div class="contacts">
+                              <div class="contacts">
                                 <div class="call">
                                     <div><b>Tel :</b> +15102362633</div>
                                     <div><b>Mob :</b> +15102362633</div>
                                     <div><b>Fax :</b> +15102362633</div>
                                     <div class="mail"><b>mail :</b> mail@mail.mail</div>
                                 </div>
-                        </div>
+                               </div>
+
+                            <div class="clearfix"></div>
+                        </article>
+                        
+                      
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
                         
@@ -88,19 +88,44 @@ include "header.php";
                         <article>
                             <div class="name">LOÏC LAGRANGE</div>
                             <span class="function">RESPONSABLE COMMERCIAL</span>
-                            
-
-                            <div class="clearfix"></div>
-                        </article>
-                        
-                        <div class="contacts">
+                            <div class="contacts">
                                 <div class="call">
                                     <div><b>Tel :</b> +15102362633</div>
                                     <div><b>Mob :</b> +15102362633</div>
                                     <div><b>Fax :</b> +15102362633</div>
                                     <div class="mail"><b>mail :</b> mail@mail.mail</div>
                                 </div>
-                        </div>
+                            </div>
+
+
+                            <div class="clearfix"></div>
+                        </article>
+                        
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
+                        
+                    </div>
+
+                    <div class="people">
+                        <div class="peopleimg"></div>
+                         
+
+                        <article>
+                            <div class="name">LOÏC LAGRANGE</div>
+                            <span class="function">RESPONSABLE COMMERCIAL</span>
+                             <div class="contacts">
+                                <div class="call">
+                                    <div><b>Tel :</b> +15102362633</div>
+                                    <div><b>Mob :</b> +15102362633</div>
+                                    <div><b>Fax :</b> +15102362633</div>
+                                    <div class="mail"><b>mail :</b> mail@mail.mail</div>
+                                </div>
+                                </div>
+
+                            <div class="clearfix"></div>
+                        </article>
+                        
+                       
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
                         
@@ -113,20 +138,20 @@ include "header.php";
                         <article>
                             <div class="name">LOÏC LAGRANGE</div>
                             <span class="function">RESPONSABLE COMMERCIAL</span>
-                            
-
-                            <div class="clearfix"></div>
-                        </article>
-                        
-                        <div class="contacts">
+                             <div class="contacts">
                                 <div class="call">
                                     <div><b>Tel :</b> +15102362633</div>
                                     <div><b>Mob :</b> +15102362633</div>
                                     <div><b>Fax :</b> +15102362633</div>
                                     <div class="mail"><b>mail :</b> mail@mail.mail</div>
                                 </div>
-                        </div>
+                                 </div>
 
+
+                            <div class="clearfix"></div>
+                        </article>
+                        
+                       
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
                         
                     </div>
@@ -138,44 +163,19 @@ include "header.php";
                         <article>
                             <div class="name">LOÏC LAGRANGE</div>
                             <span class="function">RESPONSABLE COMMERCIAL</span>
-                            
-
-                            <div class="clearfix"></div>
-                        </article>
-                        
-                        <div class="contacts">
+                             <div class="contacts">
                                 <div class="call">
                                     <div><b>Tel :</b> +15102362633</div>
                                     <div><b>Mob :</b> +15102362633</div>
                                     <div><b>Fax :</b> +15102362633</div>
                                     <div class="mail"><b>mail :</b> mail@mail.mail</div>
                                 </div>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
-                        
-                    </div>
-
-                    <div class="people">
-                        <div class="peopleimg"></div>
-                         
-
-                        <article>
-                            <div class="name">LOÏC LAGRANGE</div>
-                            <span class="function">RESPONSABLE COMMERCIAL</span>
-                            
+                              </div>
 
                             <div class="clearfix"></div>
                         </article>
                         
-                        <div class="contacts">
-                                <div class="call">
-                                    <div><b>Tel :</b> +15102362633</div>
-                                    <div><b>Mob :</b> +15102362633</div>
-                                    <div><b>Fax :</b> +15102362633</div>
-                                    <div class="mail"><b>mail :</b> mail@mail.mail</div>
-                                </div>
-                        </div>
+                       
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
                         
@@ -196,19 +196,43 @@ include "header.php";
                         <article>
                             <div class="name">LOÏC LAGRANGE</div>
                             <span class="function">RESPONSABLE COMMERCIAL</span>
-                            
-
-                            <div class="clearfix"></div>
-                        </article>
-                        
-                        <div class="contacts">
+                            <div class="contacts">
                                 <div class="call">
                                     <div><b>Tel :</b> +15102362633</div>
                                     <div><b>Mob :</b> +15102362633</div>
                                     <div><b>Fax :</b> +15102362633</div>
                                     <div class="mail"><b>mail :</b> mail@mail.mail</div>
                                 </div>
-                        </div>
+                             </div>
+
+
+                            <div class="clearfix"></div>
+                        </article>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
+                        
+                    </div>
+
+                    <div class="people">
+                        <div class="peopleimg"></div>
+                         
+
+                        <article>
+                            <div class="name">LOÏC LAGRANGE</div>
+                            <span class="function">RESPONSABLE COMMERCIAL</span>
+                            <div class="contacts">
+                                <div class="call">
+                                    <div><b>Tel :</b> +15102362633</div>
+                                    <div><b>Mob :</b> +15102362633</div>
+                                    <div><b>Fax :</b> +15102362633</div>
+                                    <div class="mail"><b>mail :</b> mail@mail.mail</div>
+                                </div>
+                                </div>
+
+                            <div class="clearfix"></div>
+                        </article>
+                        
+                        
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
                         
@@ -221,45 +245,20 @@ include "header.php";
                         <article>
                             <div class="name">LOÏC LAGRANGE</div>
                             <span class="function">RESPONSABLE COMMERCIAL</span>
-                            
-
-                            <div class="clearfix"></div>
-                        </article>
-                        
-                        <div class="contacts">
+                             <div class="contacts">
                                 <div class="call">
                                     <div><b>Tel :</b> +15102362633</div>
                                     <div><b>Mob :</b> +15102362633</div>
                                     <div><b>Fax :</b> +15102362633</div>
                                     <div class="mail"><b>mail :</b> mail@mail.mail</div>
                                 </div>
-                        </div>
+                            </div>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
-                        
-                    </div>
-
-                    <div class="people">
-                        <div class="peopleimg"></div>
-                         
-
-                        <article>
-                            <div class="name">LOÏC LAGRANGE</div>
-                            <span class="function">RESPONSABLE COMMERCIAL</span>
-                            
 
                             <div class="clearfix"></div>
                         </article>
                         
-                        <div class="contacts">
-                                <div class="call">
-                                    <div><b>Tel :</b> +15102362633</div>
-                                    <div><b>Mob :</b> +15102362633</div>
-                                    <div><b>Fax :</b> +15102362633</div>
-                                    <div class="mail"><b>mail :</b> mail@mail.mail</div>
-                                </div>
-                        </div>
-
+                       
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
                         
                     </div>
@@ -273,19 +272,19 @@ include "header.php";
                         <article>
                             <div class="name">LOÏC LAGRANGE</div>
                             <span class="function">RESPONSABLE COMMERCIAL</span>
-                            
-
-                            <div class="clearfix"></div>
-                        </article>
-                        
-                        <div class="contacts">
+                             <div class="contacts">
                                 <div class="call">
                                     <div><b>Tel :</b> +15102362633</div>
                                     <div><b>Mob :</b> +15102362633</div>
                                     <div><b>Fax :</b> +15102362633</div>
                                     <div class="mail"><b>mail :</b> mail@mail.mail</div>
                                 </div>
-                        </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </article>
+                        
+                       
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
                         
@@ -298,12 +297,7 @@ include "header.php";
                         <article>
                             <div class="name">LOÏC LAGRANGE</div>
                             <span class="function">RESPONSABLE COMMERCIAL</span>
-                            
-
-                            <div class="clearfix"></div>
-                        </article>
-                        
-                        <div class="contacts">
+                            <div class="contacts">
                                 <div class="call">
                                     <div><b>Tel :</b> +15102362633</div>
                                     <div><b>Mob :</b> +15102362633</div>
@@ -311,6 +305,11 @@ include "header.php";
                                     <div class="mail"><b>mail :</b> mail@mail.mail</div>
                                 </div>
                         </div>
+
+                            <div class="clearfix"></div>
+                        </article>
+                        
+                        
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim ex ut erat convallis venenatis.</p>
                         

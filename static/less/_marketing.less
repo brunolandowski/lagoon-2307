@@ -23,7 +23,7 @@
 		    font-weight: 100;
 		    font-size: 12px;
 		    line-height: 18px;
-		    color: #bbb;
+		    color: #999;
 		}
 		
 			
@@ -46,12 +46,19 @@
 
 .stock-prices {
 	margin:30px;
+	.row {
+		display: flex;
+		@media screen and (max-width: 960px) {
+    		display: block;
+  		}
+	}
 	article {
+		position: relative;
 		text-align: center;
 		border-bottom: 1px solid rgb(217, 217, 217);
 		display:inline-block;
 		background: white;
-		width:calc(~'33.3333% - 40px');
+		width:calc(~'33.3333% - 35px');
 		@media screen and (max-width: 960px) {
     		width:calc(~'100% - 40px');
   		}
@@ -78,7 +85,7 @@
 		    font-weight: 100;
 		    font-size: 12px;
 		    line-height: 18px;
-		    color: #bbb;
+		    color: #999;
 		}
 		p {
 			margin: 20px;
@@ -86,13 +93,21 @@
 		    font-weight: 400;
 		    font-size: 10px;
 		    line-height: 18px;
+		    &:last-of-type {
+		    	margin-bottom:80px;
+		    } 
 		}
 		button {
+			cursor:pointer;
+			transform: translate(-50%);
+		    left: 50%;
+		    position: absolute;
+		    bottom: 40px;
 			border:0;
 		    padding: 0 40px;
 		   	height: 40px;
 		    line-height: 40px;
-		    background-color: #00adbb;
+		    background-color: #52d2d4;
 		    color: #fff;
 		    font-size: 12px;
 		    border-radius: 3px;
@@ -103,7 +118,7 @@
 		    text-transform: uppercase;
 		    transition: background 0.5s ease;
 		    &:hover {
-		    	background:darken(#00adbb, 10%);
+		    	background:darken(#52d2d4, 10%);
 		    }
 		}
 	}

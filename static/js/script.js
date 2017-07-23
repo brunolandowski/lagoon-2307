@@ -103,3 +103,8 @@ $('.slideEvent').slick({
   prevArrow: false,
   nextArrow: false
 });
+
+// NAVIGATION HEADER MIDDLE 
+$( ".nav li" ).click(function() {
+  $(this).children("p").toggle();
+});

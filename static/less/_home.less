@@ -1,4 +1,7 @@
 .loader {
+	@media screen and (max-width: 960px) {
+    	height:446px;
+  	}
 	position:absolute;
 	width:100%;
 	height:546px;
@@ -116,10 +119,10 @@
 						font-weight:400;
 					}
 					button {
-						
+						cursor:pointer;
 					    height: 40px;
 					    line-height: 40px;
-					    background-color: #00adbb;
+					    background-color: #52d2d4;
 					    font-family: "Open Sans";
 					    font-weight: 400;
 					    font-size: 13px;
@@ -133,7 +136,7 @@
 					    border-radius: 3px;
 					    transition: background 0.5s ease;
 					    &:hover {
-					    	background:darken(#00adbb, 10%);
+					    	background:darken(#52d2d4, 10%);
 					    }
 					}
 				}
@@ -184,7 +187,7 @@
 		width:700px;
 		background:white;
 		margin:50px auto;
-		padding:20px;
+		padding:40px;
 		@media screen and (max-width: 960px) {
     		width:calc(~'100% - 60px');
     		margin:30px;
@@ -192,7 +195,7 @@
 		article {
 			font-family: 'Lagoon-semi';
 			height:360px;
-			width:660px;
+			width:620px;
 			@media screen and (max-width: 960px) {
     			width:100%;
   			}
@@ -208,7 +211,7 @@
 				text-align: center;
 				color:white;
 				box-shadow: inset 0px -100px 150px rgba(0,0,0,0.75);
-				width:660px;
+				width:620px;
 				@media screen and (max-width: 960px) {
     				width:100%;
   				}
@@ -312,7 +315,7 @@
 				    right:20px;
 				   	height: 40px;
 				    line-height: 40px;
-				    background-color: #00adbb;
+				    background-color: #52d2d4;
 				    color: #fff;
 				    font-size: 12px;
 				    border-radius: 3px;
@@ -322,8 +325,9 @@
 				    color: #FFF;
 				    text-transform: uppercase;
 				    transition: background 0.5s ease;
+				    cursor:pointer;
 				    &:hover {
-				    	background:darken(#00adbb, 10%);
+				    	background:darken(#52d2d4, 10%);
 				    }
 				}
 		}
@@ -332,12 +336,17 @@
 
 .actu {
 	margin:30px;
+	display: flex;
+	@media screen and (max-width: 960px) {
+    	display: block;
+  	}
 	article {
+		position:relative;
 		text-align: center;
 		border-bottom: 1px solid rgb(217, 217, 217);
 		display:inline-block;
 		background: white;
-		width:calc(~'50% - 20px');
+		width:calc(~'50% - 15px');
 		padding:30px;
 		vertical-align:top;
 		@media screen and (max-width: 960px) {
@@ -362,7 +371,7 @@
 		    font-weight: 100;
 		    font-size: 12px;
 		    line-height: 18px;
-		    color: #bbb;
+		    color: #999;
 		}
 		p {
 			margin: 20px;
@@ -370,13 +379,20 @@
 		    font-weight: 400;
 		    font-size: 10px;
 		    line-height: 18px;
+		    &:last-of-type {
+		    	margin-bottom:80px;
+		    }
 		}
 		button {
+			transform: translate(-50%);
+		    left: 50%;
+		    position: absolute;
+		    bottom: 40px;
 			border:0;
 		    padding: 0 40px;
 		   	height: 40px;
 		    line-height: 40px;
-		    background-color: #00adbb;
+		    background-color: #52d2d4;
 		    color: #fff;
 		    font-size: 12px;
 		    border-radius: 3px;
@@ -386,8 +402,9 @@
 		    color: #FFF;
 		    text-transform: uppercase;
 		    transition: background 0.5s ease;
+		    cursor:pointer;
 		    &:hover {
-		    	background:darken(#00adbb, 10%);
+		    	background:darken(#52d2d4, 10%);
 		    }
 		}
 	}
@@ -473,12 +490,17 @@
 
 .stock-prices {
 	margin:30px;
+	display: flex;
+	@media screen and (max-width: 960px) {
+    	display: block;
+  	}
 	article {
+		position:relative;
 		text-align: center;
 		border-bottom: 1px solid rgb(217, 217, 217);
 		display:inline-block;
 		background: white;
-		width:calc(~'50% - 20px');
+		width:calc(~'50% - 15px');
 		@media screen and (max-width: 960px) {
     		width:100%;
   		}
@@ -507,7 +529,7 @@
 		    font-weight: 100;
 		    font-size: 12px;
 		    line-height: 18px;
-		    color: #bbb;
+		    color: #999;
 		}
 		p {
 			margin: 20px;
@@ -515,13 +537,20 @@
 		    font-weight: 400;
 		    font-size: 10px;
 		    line-height: 18px;
+		    &:last-of-type {
+		    	margin-bottom:80px;
+		    }
 		}
 		button {
+			transform: translate(-50%);
+			left:50%;
+			position:absolute;
 			border:0;
+			bottom:40px;
 		    padding: 0 40px;
 		   	height: 40px;
 		    line-height: 40px;
-		    background-color: #00adbb;
+		    background-color: #52d2d4;
 		    color: #fff;
 		    font-size: 12px;
 		    border-radius: 3px;
@@ -531,8 +560,9 @@
 		    color: #FFF;
 		    text-transform: uppercase;
 		    transition: background 0.5s ease;
+		    cursor:pointer;
 		    &:hover {
-		    	background:darken(#00adbb, 10%);
+		    	background:darken(#52d2d4, 10%);
 		    }
 		}
 	}
@@ -550,7 +580,7 @@
 		width:100%;
 		padding:60px 30px;
 		vertical-align:top;
-		background-position: center middle;
+		background-position: center;
     	background-size: cover;
     	background-blend-mode: multiply;
 		h2 {
@@ -572,7 +602,7 @@
 		    padding: 0 40px;
 		   	height: 40px;
 		    line-height: 40px;
-		    background-color: #00adbb;
+		    background-color: #52d2d4;
 		    color: #fff;
 		    font-size: 12px;
 		    border-radius: 3px;
@@ -582,8 +612,9 @@
 		    color: #FFF;
 		    text-transform: uppercase;
 		    transition: background 0.5s ease;
+		    cursor:pointer;
 		    &:hover {
-		    	background:darken(#00adbb, 10%);
+		    	background:darken(#52d2d4, 10%);
 		    }
 		}
 		
@@ -593,12 +624,17 @@
 
 .bottom-items {
 	margin:30px;
+	display: flex;
+	@media screen and (max-width: 960px) {
+    	display: block;
+  	}
 	article {
+		position:relative;
 		text-align: center;
 		border-bottom: 1px solid rgb(217, 217, 217);
 		display:inline-block;
 		background: white;
-		width:calc(~'33% - 20px');
+		width:calc(~'33% - 15px');
 		@media screen and (max-width: 960px) {
     		width:100%;
   		}
@@ -623,7 +659,7 @@
 		    font-weight: 100;
 		    font-size: 12px;
 		    line-height: 18px;
-		    color: #bbb;
+		    color: #999;
 		}
 		p {
 			margin: 20px;
@@ -631,13 +667,21 @@
 		    font-weight: 400;
 		    font-size: 10px;
 		    line-height: 18px;
+		    &:last-of-type {
+		    	margin-bottom:80px;
+		    }
 		}
 		button {
+			transform: translate(-50%);
+		    left: 50%;
+		    position: absolute;
+		    border: 0;
+		    bottom: 40px;
 			border:0;
 		    padding: 0 40px;
 		   	height: 40px;
 		    line-height: 40px;
-		    background-color: #00adbb;
+		    background-color: #52d2d4;
 		    color: #fff;
 		    font-size: 12px;
 		    border-radius: 3px;
@@ -647,8 +691,9 @@
 		    color: #FFF;
 		    text-transform: uppercase;
 		    transition: background 0.5s ease;
+		    cursor:pointer;
 		    &:hover {
-		    	background:darken(#00adbb, 10%);
+		    	background:darken(#52d2d4, 10%);
 		    }
 		}
 	}

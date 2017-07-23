@@ -36,33 +36,34 @@
 .bloclist .content article .right ul li {
   display: inline-block;
   margin-left: 10px;
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   border-radius: 25px;
 }
 .bloclist .content article .right ul li.communication {
   background: #f39c11 url("../img/common/actu/communication-icon.png") no-repeat center;
-  background-size: 30px;
+  background-size: 25px;
 }
 .bloclist .content article .right ul li.commercial {
   background: #2dcc70 url("../img/common/actu/commercial-icon.png") no-repeat center;
-  background-size: 30px;
+  background-size: 25px;
 }
 .bloclist .content article .right ul li.product {
   background: #0177b8 url("../img/common/actu/product-icon.png") no-repeat center;
-  background-size: 30px;
+  background-size: 25px;
 }
 .bloclist .content article .right ul li.technique {
   background: #fb1716 url("../img/common/actu/technique-icon.png") no-repeat center;
-  background-size: 30px;
+  background-size: 25px;
 }
 .bloclist .content article .right button {
+  cursor: pointer;
   position: absolute;
   bottom: 40px;
   right: 30px;
   height: 40px;
   line-height: 40px;
-  background-color: #00adbb;
+  background-color: #52d2d4;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 13px;
@@ -77,7 +78,7 @@
   transition: background 0.5s ease;
 }
 .bloclist .content article .right button:hover {
-  background: #007e88;
+  background: #30c0c3;
 }
 .bloclist .content article .left {
   width: calc(100% - 200px);
@@ -94,7 +95,7 @@
   font-weight: 100;
   font-size: 12px;
   line-height: 18px;
-  color: #bbb;
+  color: #999;
 }
 .bloclist .content article .left p {
   font-family: 'Lagoon-semi', arial;
@@ -118,7 +119,7 @@
   width: 700px;
   background: white;
   margin: 50px auto;
-  padding: 20px;
+  padding: 40px;
 }
 @media screen and (max-width: 960px) {
   .popup .items {
@@ -136,25 +137,25 @@
 .popup .items article ul li {
   display: inline-block;
   margin-left: 10px;
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   border-radius: 25px;
 }
 .popup .items article ul li.communication {
   background: #f39c11 url("../img/common/actu/communication-icon.png") no-repeat center;
-  background-size: 30px;
+  background-size: 25px;
 }
 .popup .items article ul li.commercial {
   background: #2dcc70 url("../img/common/actu/commercial-icon.png") no-repeat center;
-  background-size: 30px;
+  background-size: 25px;
 }
 .popup .items article ul li.product {
   background: #0177b8 url("../img/common/actu/product-icon.png") no-repeat center;
-  background-size: 30px;
+  background-size: 25px;
 }
 .popup .items article ul li.technique {
   background: #fb1716 url("../img/common/actu/technique-icon.png") no-repeat center;
-  background-size: 30px;
+  background-size: 25px;
 }
 .popup .items article h2 {
   font-family: 'Lagoon-semi';
@@ -168,7 +169,7 @@
   font-weight: 100;
   font-size: 12px;
   line-height: 18px;
-  color: #bbb;
+  color: #999;
 }
 .popup .items article .intro {
   font-family: 'Lagoon-semi', arial;
@@ -187,7 +188,7 @@
   transition: color 0.5s ease;
 }
 .popup .items article .link:hover {
-  color: #007e88;
+  color: #30c0c3;
 }
 .popup .items article .content {
   font-family: 'Lagoon-semi', arial;

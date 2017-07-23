@@ -10,8 +10,8 @@
   width: calc(50% - 20px);
   padding: 30px;
   vertical-align: top;
-  background: #50555f;
-  background-position: center middle;
+  background: #353535;
+  background-position: center;
   background-size: cover;
   background-blend-mode: overlay;
 }
@@ -51,11 +51,12 @@
   line-height: 18px;
 }
 .actu article button {
+  cursor: pointer;
   border: 0;
   padding: 0 40px;
   height: 40px;
   line-height: 40px;
-  background-color: #00adbb;
+  background-color: #52d2d4;
   color: #fff;
   font-size: 12px;
   border-radius: 3px;
@@ -67,7 +68,7 @@
   transition: background 0.5s ease;
 }
 .actu article button:hover {
-  background: #007e88;
+  background: #30c0c3;
 }
 .photo {
   margin: 30px;
@@ -96,7 +97,7 @@
   font-weight: 100;
   font-size: 12px;
   line-height: 18px;
-  color: #bbb;
+  color: #999;
 }
 .photo article p {
   margin: 10px 20px 0 0;
@@ -138,7 +139,7 @@
   font-weight: 100;
   font-size: 12px;
   line-height: 18px;
-  color: #bbb;
+  color: #999;
 }
 .stock-prices article p {
   margin: 20px;
@@ -148,11 +149,12 @@
   line-height: 18px;
 }
 .stock-prices article button {
+  cursor: pointer;
   border: 0;
   padding: 0 40px;
   height: 40px;
   line-height: 40px;
-  background-color: #00adbb;
+  background-color: #52d2d4;
   color: #fff;
   font-size: 12px;
   border-radius: 3px;
@@ -164,7 +166,7 @@
   transition: background 0.5s ease;
 }
 .stock-prices article button:hover {
-  background: #007e88;
+  background: #30c0c3;
 }
 .title {
   width: 50%;
@@ -208,7 +210,7 @@
   color: #000;
   background: transparent;
 }
-.table table tr.label td {
+.table table tr.label th {
   padding: 0 0 20px 0;
   text-align: center;
 }
@@ -221,17 +223,17 @@
 .table table tr:nth-child(even) .name {
   background: #4bd8db;
 }
-.table table tr:nth-child(even) th:nth-child(even) {
+.table table tr:nth-child(even) td:nth-child(even) {
   background: white;
 }
 .table table tr.special .name {
   background: #36a3dc;
 }
-.table table tr th {
+.table table tr td {
   text-align: left;
   padding: 10px 30px;
 }
-.table table tr th:nth-child(even) {
+.table table tr td:nth-child(even) {
   background: #f4f4f4;
 }
 .table table tr .name {
@@ -271,7 +273,7 @@
   width: 100%;
   padding: 60px 30px;
   vertical-align: top;
-  background-position: center middle;
+  background-position: center;
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -289,11 +291,12 @@
   line-height: 18px;
 }
 .organize article button {
+  cursor: pointer;
   border: 0;
   padding: 0 40px;
   height: 40px;
   line-height: 40px;
-  background-color: #00adbb;
+  background-color: #52d2d4;
   color: #fff;
   font-size: 12px;
   border-radius: 3px;
@@ -305,5 +308,5 @@
   transition: background 0.5s ease;
 }
 .organize article button:hover {
-  background: #007e88;
+  background: #30c0c3;
 }

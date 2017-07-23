@@ -32,7 +32,7 @@
   background-size: 25px;
 }
 .specs .lateral-list ul a li.active {
-  background: #00adbb;
+  background: #52d2d4;
   color: white;
 }
 .specs .lateral-list ul a li.active:before {
@@ -40,7 +40,7 @@
   background-size: 30px;
 }
 .specs .lateral-list ul a li:hover {
-  background: #00dcee;
+  background: #7bddde;
 }
 .specs .content {
   padding-top: 50px;
@@ -50,11 +50,12 @@
   text-align: center;
 }
 .specs .content button {
+  cursor: pointer;
   border: 0;
   padding: 0 20px;
   height: 40px;
   line-height: 40px;
-  background-color: #00adbb;
+  background-color: #52d2d4;
   color: #fff;
   font-size: 12px;
   border-radius: 3px;
@@ -72,7 +73,7 @@
   }
 }
 .specs .content button:hover {
-  background: #007e88;
+  background: #30c0c3;
 }
 .specs .content button img {
   height: 30px;
@@ -103,6 +104,7 @@
   text-align: left;
 }
 .specs .documents article {
+  cursor: pointer;
   margin-bottom: 10px;
   display: inline-block;
   width: calc(50% - 20px);

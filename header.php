@@ -13,12 +13,27 @@
 
             </div>
             <ul class="nav">
-                <li class='active'><a href="home.php">ACCUEIL</a></li>
-                <li><a href="_specs.php">INFOS TECHNIQUES</a></li>
-                <li><a href="_home.php">ÉVÉNEMENTS</a></li>
-                <li><a href="_home.php">SUPPORTS MARKETING</a></li>
-                <li><a href="#">SERVICES CLIENT</a></li>
+                <li class="active">
+                    <span class="head"><a>INFOS TECHNIQUES</a></span>
+                    <p><a href="">Selleries</a></p>
+                    <p class="selected"><a href="">Specs bois</a></p>
+                    <p><a href="">Kit Mouillage</a></p>
+                    <p><a href="">Manuel CE</a></p>
+                </li>
+                
+                <li>
+                    <a href="_home.php">ÉVÉNEMENTS</a>
+                </li>
+                
+                <li>
+                    <a href="_home.php">SUPPORTS MARKETING</a>
+                </li>
+                
+                <li>
+                    <a href="#">SERVICES CLIENT</a>
+                </li>
             </ul>
+            
             <ul class="langs">
                 <li class="lang en active"><div class="actived">en</div></li>
                 <li class="lang fr rollable"><a href="#">fr</a></li>

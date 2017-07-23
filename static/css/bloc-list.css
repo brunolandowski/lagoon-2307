@@ -527,7 +527,7 @@
 }
 .bloclist .content .peoples .people .call b {
   font-weight: 700;
-  color: #00adbb;
+  color: #52d2d4;
   text-transform: uppercase;
 }
 .bloclist .content .peoples .people .web {
@@ -538,7 +538,7 @@
   margin-top: 10px;
 }
 .bloclist .content .peoples .people .web b {
-  color: #00adbb;
+  color: #52d2d4;
   text-transform: uppercase;
 }
 @media screen and (max-width: 1280px) {
