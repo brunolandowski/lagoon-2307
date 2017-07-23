@@ -186,7 +186,7 @@ input[type=text].full {
   padding: 0 10px;
   border-right: 1px dotted #CCC;
   color: #999;
-  height: 41px;
+  height: 50px;
   top: 0;
   transition: background 0.5s ease;
 }
