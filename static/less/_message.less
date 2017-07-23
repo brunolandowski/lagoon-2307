@@ -1,0 +1,81 @@
+.message {
+	.title {
+		width:50%;
+		margin:50px auto;
+		text-align: center;
+		h1 {
+			font-family: 'Lagoon-semi';
+		    font-size: 26px;
+		    font-weight: 100;
+		    margin-bottom: 20px;
+		}
+		p {
+			
+		    font-family: 'Lagoon-semi', arial;
+		    font-weight: 400;
+		    font-size: 10px;
+		    line-height: 18px;
+		}
+	}
+	.inbox, .opened {
+		margin:30px;
+		article {
+			
+			margin-bottom:10px;
+			display:inline-block;
+			width:calc(~'50% - 20px');
+			@media screen and (max-width: 960px) {
+    			width:100%;
+  			}
+			background:white;
+			border-bottom:1px solid #d9d9d9;
+			padding:10px;
+			transition: background 0.5s ease;
+		    &:hover {
+		    	background:darken(#fff, 12%);
+		    }
+			&:nth-child(even) {
+				margin-left:30px;
+				@media screen and (max-width: 960px) {
+    				margin-left:0px;
+  				}
+			}
+			img {
+				width:60px;
+			}
+			.content {
+
+				vertical-align: middle;
+				position:relative;
+				display: inline-block;
+				width:calc(~'100% - 70px');
+				h2 {
+				   	margin:0;
+				    text-transform: uppercase;
+				    font-family: 'Lagoon', arial;
+				    font-weight: 700;
+				    font-size: 10px;
+				    line-height: 10px;
+				}
+				.date {
+				    font-family: 'Lagoon', arial;
+				    font-weight: 100;
+				    font-size: 12px;
+				    line-height: 10px;
+				    color: #bbb;
+				    float:right;
+				}
+				.sender {
+					font-family: 'Lagoon-semi', arial;
+    				font-weight: 400;
+					font-size: 10px;
+				   	line-height: 18px;
+				   	opacity:.7;
+				   	margin:0;
+				}
+			}
+			
+		}
+	}
+	
+}

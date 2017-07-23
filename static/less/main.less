@@ -1,0 +1,146 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    overflow-x: hidden;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+input{
+    outline: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles s
+   ========================================================================== */
+* { box-sizing: border-box; }
+a { text-decoration: none; color: inherit;}
+
+body, html { width: 100%; height: 100%; overflow-x: hidden;position:relative; margin:0;}
+body { 
+    background-color: #e9e9e9; 
+}
+
+@import 'nav.less';
+@import 'blocs.less';
+
+@import 'bloc-squareMenu.less';
+@import 'bloc-lateralList.less';
+@import 'bloc-list.less';
+@import 'pagination.less';
+
+.login,
+.home {
+    background-color: #e9e9e9;
+}
+
+
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+footer {
+    background:#515151;
+    color:white;
+    height:50px;
+    font-size: 10px;
+    font-family: 'Lagoon-semi';
+    
+    hr {
+        background:#ccc;
+        border:none;
+        display: inline-flex;
+        height:20px;
+        width:1px;
+        margin:0 15px;
+        vertical-align: middle;
+
+    }
+    .left {
+        padding-top: 15px;
+        height:50px;
+        float:left;
+        margin-left:30px;
+       
+    }
+    .right {
+        padding-top: 15px;
+        height:50px;
+        font-size:10px;
+        float:right;
+        margin-right:30px;
+        
+    }
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

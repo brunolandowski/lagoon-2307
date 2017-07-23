@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+.edit {
+
+	background: -webkit-linear-gradient( top, #d3e8ec, #9edbde); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom , #d3e8ec, #9edbde); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom , #d3e8ec, #9edbde); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom , #d3e8ec, #9edbde); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-color: #9edbde;
+		
+	.content {
+		position: relative;
+		margin: 0 auto;
+		width: 990px;
+		text-align: center;
+		font-family: "Open Sans";
+		padding-bottom: 40px;
+
+		.title {
+			font-weight: 500;
+			font-size: 24px;
+			height: 150px; line-height: 150px;
+			text-transform: uppercase;
+		}
+
+		.langs {
+			position: absolute;
+			right: 100%; top: 150px;
+			width: 70px; margin-right: 20px;
+			background-color: #fff;
+			
+			.lang {
+				position: relative;
+				width: 100%;
+				height: 60px; line-height: 60px;
+				background-color: #fff;
+				border-bottom: 1px dotted #ccc;
+				text-align: center;
+				font-weight: 600;
+				color: #999;
+				font-size: 14px;
+
+				&.active {
+					font-weight: 400;
+					font-size: 24px;
+					color: #fff;
+					background-color: #00adbb;
+				}
+
+				&:not(.active){
+					cursor: pointer;
+				}
+			}
+		}
+
+		.bloc {
+			position: relative;
+			width: 100%; 
+			background-color: #fff;
+			margin-bottom: 20px;
+
+			.head {
+				position: relative;
+				height: 70px; line-height: 70px;
+				border-bottom: 1px solid #ccc;
+				padding: 0 40px;
+				font-size: 14px;
+				text-align: left;
+				text-transform: uppercase;
+				color: #888;
+				cursor: pointer;
+
+				&:before{
+					content: "";
+					position: absolute;
+					right: 20px; top: 50%;  margin-top: -2.5px;
+					border: 5px solid #00adbb;
+					border-left-color: transparent;
+					border-bottom-color: transparent;
+					transform: rotate(-45deg);
+				}				
+			}
+
+			&.collapse .head:before {
+				transform: rotate(135deg);
+			}
+
+			.content {
+				display: block;
+				position: relative;
+				padding: 40px;
+				
+				
+			}
+
+			.imagePicker {
+				position: relative;
+				width: 100%;
+				padding-bottom: 40px;
+				
+				.image {
+					position: relative;
+					width: 100%;
+					height: 540px;
+					background: url('../img/common/emptyImage.jpg') center no-repeat;
+					background-size: cover;
+
+					&:after {
+						content: "";
+						position: absolute;
+						left: 0; top: 0;
+						bottom: 0; right: 0;
+						border: 5px dashed #cedbdc; 
+					}
+				}
+
+				.actions {
+					margin-top: 20px;
+				}				
+			}
+
+			&.collapse .imagePicker,
+			&.collapse .content { display: none; }
+		}
+
+		.actions {
+			margin-top: 20px;
+		}
+	}	
+}
+
+@media screen and (max-width: 1440px) {
+	.edit {
+
+		.content {
+			width: 860px;
+			padding-bottom: 20px;
+
+			.title {
+				font-size: 18px;
+				height: 100px; line-height: 100px;
+			}
+
+			.langs {
+				top: 100px;
+				width: 50px; margin-right: 15px;
+				
+				.lang {
+					height: 50px; line-height: 50px;
+					font-size: 12px;
+
+					&.active { font-size: 18px; }
+				}
+			}
+
+			.bloc {
+				margin-bottom: 15px;
+
+				.head {
+					height: 50px; line-height: 50px;
+					padding: 0 20px;
+					font-size: 12px;
+					
+					&:before{
+						right: 15px; top: 50%;  margin-top: -1.5px;
+						border-width: 3px;
+					}				
+				}
+
+				.content { padding: 20px; }
+
+				.imagePicker {
+					padding-bottom: 20px;
+					
+					.image {
+						height: 360px;
+						
+						&:after { border-width: 3px; }
+					}
+
+					.actions { margin-top: 15px;}				
+				}
+
+			}
+
+			.actions {
+				margin-top: 15px;
+			}
+		}	
+	}
+}

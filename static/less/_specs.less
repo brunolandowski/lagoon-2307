@@ -1,0 +1,186 @@
+.specs {
+	.lateral-list {
+		width:250px;
+		background:white;
+		margin:0;
+		display: inline-block;
+		height:100%;
+		ul {
+			padding:0;
+			margin:0;
+			a {
+				li {
+				    display: block;
+				    font-size: 10px;
+				    font-family: "Lagoon";
+				    font-weight: 600;
+				    text-transform: uppercase;
+				    padding:20px;
+				    border-bottom: 1px solid #f5f5f5;
+				    height:50px;
+				    &:before {
+						margin-right:10px;
+			    		content:'';
+			    		width:30px;
+			    		margin-top:-3px;
+			    		height:20px;
+			    		display: block;
+			    		float:left;
+			    		background: url("../img/common/specs/folder-icon-grey.png") no-repeat center; 
+			    		background-size: 25px;
+			    	}
+			    	&.active {
+			    		background:#00adbb;
+			    		color:white;
+			    		&:before {
+			    			background: url("../img/common/specs/folder-icon-white.png") no-repeat center; 
+			    			background-size: 30px;
+			    		}
+			    	}
+			    	transition: background 0.5s ease;
+		    		&:hover {
+		    			background:lighten(#00adbb, 10%);
+		    		}
+			    }
+			}
+			
+		}
+	}
+	.content {
+		padding-top:50px;
+		vertical-align: top;
+		width:calc(~'100% - 255px');
+		display: inline-block;
+		text-align: center;
+		button {
+			border: 0;
+		    padding: 0 20px;
+		    height: 40px;
+		    line-height: 40px;
+		    background-color: #00adbb;
+		    color: #fff;
+		    font-size: 12px;
+		    border-radius: 3px;
+		    font-family: "Open Sans";
+		    font-weight: 400;
+		    font-size: 13px;
+		    color: #FFF;
+		    text-transform: uppercase;
+		    transition: background 0.5s ease;
+		    margin-bottom: 20px;
+		    @media screen and (max-width: 960px) {
+    			position:relative;
+  			}
+		    &:hover {
+		    	background:darken(#00adbb, 10%);
+		    }
+		    img {
+		    	height: 30px;
+		    	vertical-align: middle;
+		    	margin-right:10px;
+		    	margin-top:-5px;
+		    }
+		}
+		.title {
+			width: 55%;
+		    margin: 0px auto 30px auto;
+		    text-align: center;
+		    h1 {
+		    	font-family: 'Lagoon-semi';
+			    font-size: 26px;
+			    font-weight: 100;
+			    margin-top: 0;
+    			margin-bottom: 20px;
+		    }
+		    p {
+		    	font-family: 'Lagoon-semi', arial;
+			    font-weight: 400;
+			    font-size: 10px;
+			    line-height: 18px;
+		    }
+		}
+	}
+	.documents {
+		margin:30px;
+		text-align: left;
+		article {
+			
+			margin-bottom:10px;
+			display:inline-block;
+			width:calc(~'50% - 20px');
+			@media screen and (max-width: 960px) {
+    			width:100%;
+  			}
+			background:white;
+			border-bottom:1px solid #d9d9d9;
+			padding:10px;
+			transition: background 0.5s ease;
+		    &:hover {
+		    	background:darken(#fff, 12%);
+		    }
+			&:nth-child(even) {
+				margin-left:30px;
+				@media screen and (max-width: 960px) {
+    				margin-left:0px;
+  				}
+			}
+			.image-doc {
+				width:30px;
+				background:red;
+				height:35px;
+				display: block;
+				float:left;
+			 	margin-right:10px;
+			 	vertical-align: bottom;
+			 	&.ppt {background: url("../img/common/specs/ppt-icon.png") no-repeat center; background-size: 35px;}
+			 	&.pdf {background: url("../img/common/specs/pdf-icon.png") no-repeat center; background-size: 35px;}
+			 	&.doc {background: url("../img/common/specs/doc-icon.png") no-repeat center; background-size: 35px;}
+			}
+			.container {
+
+				position:relative;
+				display: inline-block;
+				width:calc(~'100% - 40px');
+				h2 {
+				   	margin:5px 0 0 0;
+				    text-transform: uppercase;
+				    font-family: 'Lagoon', arial;
+				    font-weight: 700;
+				    font-size: 10px;
+				    line-height: 10px;
+				}
+				.date {
+				    font-family: 'Lagoon', arial;
+				    font-weight: 400;
+				    font-size: 8px;
+				    line-height: 18px;
+				    color: rgb(153, 153, 153);
+				    
+				}
+				.lang {
+					font-family: 'Lagoon-semi', arial;
+    				font-weight: 400;
+					font-size: 10px;
+				   	line-height: 18px;
+				   	margin:0;
+				   	float:right;
+				   	ul {
+				   		margin:0;
+				   		li {
+				   			text-align: center;
+   							line-height: 30px;
+				   			display: inline-block;
+				   			background:#CCCCCC;
+				   			color:white;
+				   			height:30px;
+				   			width:30px;
+				   			border-radius: 15px;
+				   			list-style: none;
+				   		}
+				   	}
+				}
+			}
+			
+		}
+	}
+}

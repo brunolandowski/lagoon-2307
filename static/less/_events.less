@@ -1,0 +1,345 @@
+
+.actu {
+	margin:30px;
+	color:white;
+	article {
+		text-align: center;
+		border-bottom: 1px solid rgb(217, 217, 217);
+		display:inline-block;
+		background: white;
+		width:calc(~'50% - 20px');
+		padding:30px;
+		vertical-align:top;
+		background:#50555f;
+		background-position: center middle;
+    	background-size: cover;
+    	background-blend-mode: overlay;
+    	@media screen and (max-width: 960px) {
+    		width: 100%;
+  		}
+		&:nth-child(2) {
+			margin-left:30px;
+			@media screen and (max-width: 960px) {
+    			margin-left: 0;
+    			margin-top:30px;
+  			}
+		}
+		h2 {
+			font-family: 'Lagoon-semi';
+			font-size:20px;
+			margin-top:20px;
+			margin-bottom: 10px;
+		}
+		span.date {
+		    font-family: 'Lagoon', arial;
+		    font-weight: 400;
+		    font-weight: 100;
+		    font-size: 12px;
+		    line-height: 18px;
+		    color: white;
+		}
+		p {
+			margin: 20px;
+		    font-family: 'Lagoon-semi', arial;
+		    font-weight: 400;
+		    font-size: 10px;
+		    line-height: 18px;
+		}
+		button {
+			border:0;
+		    padding: 0 40px;
+		   	height: 40px;
+		    line-height: 40px;
+		    background-color: #00adbb;
+		    color: #fff;
+		    font-size: 12px;
+		    border-radius: 3px;
+		    font-family: "Open Sans";
+		    font-weight: 400;
+		    font-size: 13px;
+		    color: #FFF;
+		    text-transform: uppercase;
+		    transition: background 0.5s ease;
+		    &:hover {
+		    	background:darken(#00adbb, 10%);
+		    }
+		}
+	}
+}
+
+
+.photo {
+	margin:30px;
+	article {
+		text-align: left;
+		border-bottom: 1px solid rgb(217, 217, 217);
+		display:inline-block;
+		background: white;
+		width:100%;
+		padding:30px;
+		vertical-align:top;
+		&:nth-child(2) {
+			margin-left:30px;
+		}
+		h2 {
+			font-family: 'Lagoon-semi';
+			font-size:20px;
+			margin-top:20px;
+			margin-bottom: 10px;
+		}
+		span.date {
+		    font-family: 'Lagoon', arial;
+		    font-weight: 400;
+		    font-weight: 100;
+		    font-size: 12px;
+		    line-height: 18px;
+		    color: #bbb;
+		}
+		
+			
+			p {	
+				
+				&:first-of-type {
+					margin-top:20px;
+				}
+				margin: 10px 20px 0 0;
+			    font-family: 'Lagoon-semi', arial;
+			    font-weight: 400;
+			    font-size: 10px;
+			    line-height: 18px;
+			}
+		
+		
+		
+	}
+}
+
+.stock-prices {
+	margin:30px;
+	article {
+		text-align: center;
+		border-bottom: 1px solid rgb(217, 217, 217);
+		display:inline-block;
+		background: white;
+		width:calc(~'50% - 20px');
+		padding:30px;
+		vertical-align:top;
+		&:nth-child(2) {
+			margin-left:30px;
+		}
+		img {
+			height:50px;
+			margin-top:20px;
+		}
+		h2 {
+			font-family: 'Lagoon-semi';
+			font-size:20px;
+			
+			margin-bottom: 10px;
+		}
+		span.date {
+		    font-family: 'Lagoon', arial;
+		    font-weight: 400;
+		    font-weight: 100;
+		    font-size: 12px;
+		    line-height: 18px;
+		    color: #bbb;
+		}
+		p {
+			margin: 20px;
+		    font-family: 'Lagoon-semi', arial;
+		    font-weight: 400;
+		    font-size: 10px;
+		    line-height: 18px;
+		}
+		button {
+			border:0;
+		    padding: 0 40px;
+		   	height: 40px;
+		    line-height: 40px;
+		    background-color: #00adbb;
+		    color: #fff;
+		    font-size: 12px;
+		    border-radius: 3px;
+		    font-family: "Open Sans";
+		    font-weight: 400;
+		    font-size: 13px;
+		    color: #FFF;
+		    text-transform: uppercase;
+		    transition: background 0.5s ease;
+		    &:hover {
+		    	background:darken(#00adbb, 10%);
+		    }
+		}
+	}
+}
+
+.title {
+	width: 50%;
+    margin: 50px auto 20px auto;
+    text-align: center;
+	h1 {
+		font-family: 'Lagoon-semi';
+	    font-size: 26px;
+	    font-weight: 100;
+	    margin-bottom: 20px;
+	}
+}
+
+.content {
+	margin:40px auto 50px auto;
+	text-align: center;
+}
+
+.table {
+	
+	margin:30px;
+	table {
+		width:100%;
+	    text-transform: uppercase;
+	    font-family: "Lato";
+	    font-weight: 400;
+	    font-size: 10px;
+	    line-height: 25px;
+	    margin: 0;
+	    border-bottom: 1px solid #d9d9d9;
+	 
+		tr {
+			background:#eeeeee;
+			&.linked {
+				.link {
+					span {
+						opacity:1;
+					}
+				}
+			}
+			&.label {
+				font-family: 'Lagoon', arial;
+				font-size: 12px;
+				margin-bottom:20px;
+				color:#000;
+				background:transparent;
+				td {
+					padding:0 0 20px 0;
+					text-align: center;
+				}
+			}
+			&:nth-child(even) {
+				background:#f8f8f8;
+				&.special {
+					.name {
+						background:lighten(#36a3dc, 10%);
+					}
+				}
+				.name {
+					background:lighten(#29c7ca, 10%);
+				}
+				th:nth-child(even) {
+					background:white;
+				}
+			}
+			&.special {
+				.name {
+					background:#36a3dc;
+				}
+			}
+
+			th {
+
+				&:nth-child(even) {
+					background:#f4f4f4;
+				}
+				text-align: left;
+				padding:10px 30px;
+				
+			}
+			.name {
+				width:40%;
+				background:#29c7ca;		
+				color:white;
+
+				
+			}
+			.country {
+				padding:5px 30px;
+				
+			}
+			.dates {
+				padding:5px 30px;
+				
+			}
+			.models {
+				padding:5px 30px;
+				
+
+			}
+			.link {
+				padding:5px 10px;
+				text-align: center;
+				span {
+					opacity:.5;
+					width:30px;
+					height:30px;
+					display: inline-block;
+					vertical-align: middle;
+					background: url("../img/common/events/link.png") no-repeat center; 
+					background-size: 25px;
+				}
+				
+			}
+		}
+	}
+}
+
+.organize {
+	
+	article {
+		position:relative;
+		background:#90a0bd;
+		text-align: center;
+		border-bottom: 1px solid rgb(217, 217, 217);
+		display:inline-block;
+		color:white;
+		width:100%;
+		padding:60px 30px;
+		vertical-align:top;
+		background-position: center middle;
+    	background-size: cover;
+    	background-blend-mode: multiply;
+		h2 {
+			font-family: 'Lagoon-semi';
+			font-size:26px;
+			font-weight: 100;
+			margin-bottom: 10px;
+		}
+		
+		p {
+			margin: 20px;
+		    font-family: 'Lagoon-semi', arial;
+		    font-weight: 400;
+		    font-size: 10px;
+		    line-height: 18px;
+		}
+		button {
+			border:0;
+		    padding: 0 40px;
+		   	height: 40px;
+		    line-height: 40px;
+		    background-color: #00adbb;
+		    color: #fff;
+		    font-size: 12px;
+		    border-radius: 3px;
+		    font-family: "Open Sans";
+		    font-weight: 400;
+		    font-size: 13px;
+		    color: #FFF;
+		    text-transform: uppercase;
+		    transition: background 0.5s ease;
+		    &:hover {
+		    	background:darken(#00adbb, 10%);
+		    }
+		}
+		
+		
+	}
+}

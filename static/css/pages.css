@@ -1,0 +1,12 @@
+.pages {
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, #d3e8ec, #9edbde);
+  /* Standard syntax */
+  background-repeat: no-repeat;
+  background-color: #9edbde;
+}
+.pages .content .title {
+  margin-bottom: 40px;
+}

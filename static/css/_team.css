@@ -1,0 +1,71 @@
+.title {
+  width: 50%;
+  margin: 50px auto 20px auto;
+  text-align: center;
+}
+.title h1 {
+  font-family: 'Lagoon-semi';
+  font-size: 26px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.bloclist .content h3 {
+  font-family: 'Lagoon-semi';
+  color: #00adbb;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.bloclist .peoples .group .peopleimg {
+  background: #333;
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+}
+.bloclist .peoples .group .people {
+  border-bottom: 1px solid #d9d9d9;
+  vertical-align: top;
+}
+.bloclist .peoples .group .people p {
+  margin-top: 20px;
+  color: #999;
+  font-size: 10px;
+  line-height: 1.4;
+  font-family: 'Lagoon-semi', arial;
+}
+.bloclist .peoples .group .people .contacts {
+  margin-top: 10px;
+}
+.bloclist .peoples .group .people .contacts .call {
+  float: inherit;
+}
+.bloclist .peoples .group .people .contacts .call .mail {
+  font-size: 13px;
+  font-family: "Lato";
+  font-weight: 700;
+}
+.bloclist .peoples .group .people article {
+  margin-top: 15px;
+  vertical-align: top;
+  margin-left: 20px;
+  display: inline-block;
+  width: calc(100% - 130px);
+}
+.bloclist .peoples .group .people article .name {
+  font-family: 'Lagoon-semi';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  opacity: .7;
+  margin: 0;
+}
+.bloclist .peoples .group .people article .function {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Lagoon', arial;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  margin: 0;
+}

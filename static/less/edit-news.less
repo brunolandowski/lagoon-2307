@@ -1,0 +1,79 @@
+@import 'edit.less';
+
+.edit.news {
+	.content {
+		.bloc {
+			.categories {
+				text-align: left;
+				margin-top: 20px;
+				font-size: 12px;
+				text-transform: uppercase;
+				color: #999;
+
+				line-height: 50px;
+
+				input{
+					margin-left: 20px;
+				}
+
+				label {
+					margin-left: 5px;
+					font-weight: 600;
+					&[for=sail] { color:#39a2db; }
+					&[for=event] { color:#f39c11; }
+					&[for=motor] { color:#fb1716; }
+				}
+
+				.inApp {
+					position: relative;
+					float: right;
+					width: 170px;
+
+					input{
+						display: inline-block;
+						vertical-align: middle;
+						-webkit-appearance: none;
+						   -moz-appearance: none;
+						        appearance: none;
+						border: none;
+						border-radius: 0;
+						width: 45px; height: 47px;
+						background-image: url('../img/common/in-app-off.png');
+						background-size: 100%;
+
+						&:checked {
+							background-image: url('../img/common/in-app-on.png');
+						}
+					}
+
+					label {
+						display: inline-block;
+						vertical-align: middle;
+						width: 90px;
+						line-height: normal;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	
+	.edit.news {
+		.content {
+			.bloc {
+				.categories {
+					margin-top: 15px;
+					font-size: 11px;
+					line-height: 50px;
+
+					input{
+						margin-left: 20px;
+					}
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+.edit {
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, #d3e8ec, #9edbde);
+  /* Standard syntax */
+  background-repeat: no-repeat;
+  background-color: #9edbde;
+}
+.edit .content {
+  position: relative;
+  margin: 0 auto;
+  width: 990px;
+  text-align: center;
+  font-family: "Open Sans";
+  padding-bottom: 40px;
+}
+.edit .content .title {
+  font-weight: 500;
+  font-size: 24px;
+  height: 150px;
+  line-height: 150px;
+  text-transform: uppercase;
+}
+.edit .content .langs {
+  position: absolute;
+  right: 100%;
+  top: 150px;
+  width: 70px;
+  margin-right: 20px;
+  background-color: #fff;
+}
+.edit .content .langs .lang {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #fff;
+  border-bottom: 1px dotted #ccc;
+  text-align: center;
+  font-weight: 600;
+  color: #999;
+  font-size: 14px;
+}
+.edit .content .langs .lang.active {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  background-color: #00adbb;
+}
+.edit .content .langs .lang:not(.active) {
+  cursor: pointer;
+}
+.edit .content .bloc {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.edit .content .bloc .head {
+  position: relative;
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 1px solid #ccc;
+  padding: 0 40px;
+  font-size: 14px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #888;
+  cursor: pointer;
+}
+.edit .content .bloc .head:before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -2.5px;
+  border: 5px solid #00adbb;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotate(-45deg);
+}
+.edit .content .bloc.collapse .head:before {
+  transform: rotate(135deg);
+}
+.edit .content .bloc .content {
+  display: block;
+  position: relative;
+  padding: 40px;
+}
+.edit .content .bloc .imagePicker {
+  position: relative;
+  width: 100%;
+  padding-bottom: 40px;
+}
+.edit .content .bloc .imagePicker .image {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  background: url('../img/common/emptyImage.jpg') center no-repeat;
+  background-size: cover;
+}
+.edit .content .bloc .imagePicker .image:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border: 5px dashed #cedbdc;
+}
+.edit .content .bloc .imagePicker .actions {
+  margin-top: 20px;
+}
+.edit .content .bloc.collapse .imagePicker,
+.edit .content .bloc.collapse .content {
+  display: none;
+}
+.edit .content .actions {
+  margin-top: 20px;
+}
+@media screen and (max-width: 1440px) {
+  .edit .content {
+    width: 860px;
+    padding-bottom: 20px;
+  }
+  .edit .content .title {
+    font-size: 18px;
+    height: 100px;
+    line-height: 100px;
+  }
+  .edit .content .langs {
+    top: 100px;
+    width: 50px;
+    margin-right: 15px;
+  }
+  .edit .content .langs .lang {
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+  }
+  .edit .content .langs .lang.active {
+    font-size: 18px;
+  }
+  .edit .content .bloc {
+    margin-bottom: 15px;
+  }
+  .edit .content .bloc .head {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 12px;
+  }
+  .edit .content .bloc .head:before {
+    right: 15px;
+    top: 50%;
+    margin-top: -1.5px;
+    border-width: 3px;
+  }
+  .edit .content .bloc .content {
+    padding: 20px;
+  }
+  .edit .content .bloc .imagePicker {
+    padding-bottom: 20px;
+  }
+  .edit .content .bloc .imagePicker .image {
+    height: 360px;
+  }
+  .edit .content .bloc .imagePicker .image:after {
+    border-width: 3px;
+  }
+  .edit .content .bloc .imagePicker .actions {
+    margin-top: 15px;
+  }
+  .edit .content .actions {
+    margin-top: 15px;
+  }
+}
+.edit.event .content .bloc .inApp {
+  position: relative;
+  width: 170px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+}
+.edit.event .content .bloc .inApp input {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  width: 45px;
+  height: 47px;
+  background-image: url('../img/common/in-app-off.png');
+  background-size: 100%;
+}
+.edit.event .content .bloc .inApp input:checked {
+  background-image: url('../img/common/in-app-on.png');
+}
+.edit.event .content .bloc .inApp label {
+  display: inline-block;
+  vertical-align: middle;
+  width: 90px;
+  line-height: normal;
+}
+.edit.event .content .bloc .country {
+  margin-top: 20px;
+}
+.edit.event .content .bloc .date {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+  margin-top: 20px;
+}
+.edit.event .content .bloc .boats {
+  font-size: 0px;
+  margin-top: 40px;
+}
+.edit.event .content .bloc .boats .partTitle {
+  margin-bottom: 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #999;
+}
+.edit.event .content .bloc .boats .boat {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  width: calc(20% - 5px );
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: 100px;
+  line-height: 100px;
+  color: #999;
+  font-size: 12px;
+  border: 3px solid #ccc;
+}
+.edit.event .content .bloc .boats .boat input {
+  position: absolute;
+  left: 0;
+  top: 0 ;
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+}
+.edit.event .content .bloc .boats .boat label {
+  margin-left: 5px;
+  font-weight: 600;
+}

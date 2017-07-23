@@ -1,0 +1,210 @@
+.title {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+.title h1 {
+  font-family: 'Lagoon-semi';
+  font-size: 26px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.bloclist {
+  font-size: 14px;
+}
+.bloclist .content {
+  padding-left: 0;
+}
+.bloclist .content article {
+  position: relative;
+  padding: 40px;
+  width: 50%;
+  margin: 0 auto 30px;
+  background: white;
+  border-bottom: 1px solid #d9d9d9;
+}
+@media screen and (max-width: 960px) {
+  .bloclist .content article {
+    width: 100%;
+  }
+}
+.bloclist .content article .right ul {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+.bloclist .content article .right ul li {
+  display: inline-block;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.bloclist .content article .right ul li.communication {
+  background: #f39c11 url("../img/common/actu/communication-icon.png") no-repeat center;
+  background-size: 30px;
+}
+.bloclist .content article .right ul li.commercial {
+  background: #2dcc70 url("../img/common/actu/commercial-icon.png") no-repeat center;
+  background-size: 30px;
+}
+.bloclist .content article .right ul li.product {
+  background: #0177b8 url("../img/common/actu/product-icon.png") no-repeat center;
+  background-size: 30px;
+}
+.bloclist .content article .right ul li.technique {
+  background: #fb1716 url("../img/common/actu/technique-icon.png") no-repeat center;
+  background-size: 30px;
+}
+.bloclist .content article .right button {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #00adbb;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  padding: 0px 40px;
+  border-radius: 3px;
+  transition: background 0.5s ease;
+}
+.bloclist .content article .right button:hover {
+  background: #007e88;
+}
+.bloclist .content article .left {
+  width: calc(100% - 200px);
+}
+.bloclist .content article .left h3 {
+  font-family: 'Lagoon-semi';
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.bloclist .content article .left .date {
+  font-family: 'Lagoon', arial;
+  font-weight: 400;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 18px;
+  color: #bbb;
+}
+.bloclist .content article .left p {
+  font-family: 'Lagoon-semi', arial;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  margin: 10px 0 0 0;
+}
+.popup {
+  z-index: 2;
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: auto;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  overflow-y: scroll;
+}
+.popup .items {
+  width: 700px;
+  background: white;
+  margin: 50px auto;
+  padding: 20px;
+}
+@media screen and (max-width: 960px) {
+  .popup .items {
+    width: calc(100% - 60px);
+    margin: 30px;
+  }
+}
+.popup .items article {
+  text-align: center;
+}
+.popup .items article ul {
+  margin: 0 auto;
+  padding: 0;
+}
+.popup .items article ul li {
+  display: inline-block;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.popup .items article ul li.communication {
+  background: #f39c11 url("../img/common/actu/communication-icon.png") no-repeat center;
+  background-size: 30px;
+}
+.popup .items article ul li.commercial {
+  background: #2dcc70 url("../img/common/actu/commercial-icon.png") no-repeat center;
+  background-size: 30px;
+}
+.popup .items article ul li.product {
+  background: #0177b8 url("../img/common/actu/product-icon.png") no-repeat center;
+  background-size: 30px;
+}
+.popup .items article ul li.technique {
+  background: #fb1716 url("../img/common/actu/technique-icon.png") no-repeat center;
+  background-size: 30px;
+}
+.popup .items article h2 {
+  font-family: 'Lagoon-semi';
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.popup .items article .date {
+  font-family: 'Lagoon', arial;
+  font-weight: 400;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 18px;
+  color: #bbb;
+}
+.popup .items article .intro {
+  font-family: 'Lagoon-semi', arial;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  margin: 30px 0 0 0;
+  text-align: left;
+}
+.popup .items article .link {
+  font-family: 'Lagoon', arial;
+  font-size: 12px;
+  line-height: 18px;
+  color: #52d2d4;
+  text-align: left;
+  transition: color 0.5s ease;
+}
+.popup .items article .link:hover {
+  color: #007e88;
+}
+.popup .items article .content {
+  font-family: 'Lagoon-semi', arial;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  margin: 30px 0 0 0;
+  text-align: left;
+}
+.popup .items article .content p {
+  margin: 0 0 10px 0;
+}
+.popup .items article .content h3 {
+  text-transform: uppercase;
+  font-family: 'Lagoon-semi', arial;
+  margin: 10px 0 0px 0;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 25px;
+}

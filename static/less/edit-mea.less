@@ -1,0 +1,60 @@
+@import 'edit.less';
+
+.edit.mea {
+	.content {
+		.bloc {
+			.inApp {
+				position: relative;
+				width: 170px;
+				margin: 0 auto;
+
+				margin-top: 20px;
+				font-size: 12px;
+				text-transform: uppercase;
+				color: #999;
+
+				input{
+					display: inline-block;
+					vertical-align: middle;
+					-webkit-appearance: none;
+					   -moz-appearance: none;
+					        appearance: none;
+					border: none;
+					border-radius: 0;
+					width: 45px; height: 47px;
+					background-image: url('../img/common/in-app-off.png');
+					background-size: 100%;
+
+					&:checked {
+						background-image: url('../img/common/in-app-on.png');
+					}
+				}
+
+				label {
+					display: inline-block;
+					vertical-align: middle;
+					width: 90px;
+					line-height: normal;
+				}
+			}
+
+			&.infos {
+				input.full {
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	
+	.edit.mea {
+		.content {
+			.bloc {
+				
+			}
+		}
+	}
+
+}

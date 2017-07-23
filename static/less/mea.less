@@ -1,0 +1,223 @@
+.mea {
+
+    background: -webkit-linear-gradient( top, #d3e8ec, #9edbde); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom , #d3e8ec, #9edbde); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom , #d3e8ec, #9edbde); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom , #d3e8ec, #9edbde); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-color: #9edbde;
+
+	.lateralList {
+		.content {
+			
+			.title {
+				margin-bottom: 50px;
+			}
+
+			.actions a.actionButton.addNews:before {
+				background-image: url('../img/common/actions/add-mea.png');
+			}
+
+			.lines {
+				li {
+					
+					&.line {
+						height: 70px;
+						line-height: 70px;
+					}
+					.nom {
+						text-transform: uppercase;
+						font-size: 14px;	
+						padding-left: 20px;
+						width: calc( ~"100% - 60px - 120px - 300px - 60px");						
+					}
+
+					.app {
+						width: 60px;
+						overflow: visible;
+						padding: 0;
+
+						.icon {
+							position: relative;
+							display: inline-block;
+							width: 100%; height: 100%;
+							background: transparent no-repeat center;
+							background-size: 50%;
+
+							&.on { background-image: url('../img/common/visible-on.png'); }
+							&.off { background-image: url('../img/common/visible-off.png'); }
+
+							&.tab:after {
+								content: ""; 
+								position: absolute;
+								bottom: 0; left: 0;
+								display: block;
+								width: 100%; height: 41px;
+								background: transparent no-repeat bottom center;
+								background-size: 35px;
+								background-image: url('../img/common/app-icon.png'); 
+							}
+							
+						}
+					}
+
+					.date {
+						padding: 0 10px;
+						text-align: center;
+						width: 120px;
+						font-size: 11px;					
+					}
+					
+					&.th .langs{ text-align: center; }
+
+					.langs {
+						text-align: right;
+						width: 300px;
+						font-size: 0;
+						padding: 0 10px;		
+
+						.lang {
+							vertical-align: middle;
+							text-transform: uppercase;
+							display: inline-block;
+							position: relative;
+							width: 30px; height: 30px;
+							line-height: 30px;
+							border-radius: 30px;
+							background-color: #ccc;
+							color: #FFF;
+							text-align: center;
+							font-size: 11px;
+							font-weight: 700;
+							margin-left: 5px;
+						}
+					}
+
+					.edit {
+						padding: 0;
+						width: 60px;
+						cursor: pointer;
+
+						&:not(.empty) {
+							height: 100%;
+							background: transparent no-repeat center;
+							background-size: 50%;
+							background-image: url('../img/common/rouage-icon.png');
+						}
+
+					}
+
+				}			
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.mea {
+		.lateralList {
+			.content {
+				.lines {
+					li {
+						&.line {
+							height: 50px;
+							line-height: 50px;
+						}
+
+						.nom {
+							font-size: 11px;	
+							width: calc( ~"100%  - 50px - 100px - 210px - 50px");						
+						}
+
+						.app { width: 50px;	}
+
+						.date {
+							width: 100px;
+							font-size: 10px;					
+						}
+
+						.langs {
+							width: 210px;
+							padding: 0 10px;		
+
+							.lang {
+								width: 20px; height: 20px;
+								line-height: 20px;
+								border-radius: 20px;
+								font-size: 10px;
+								margin-left: 3px;
+							}
+						}
+
+						.edit {
+							padding: 0;
+							width: 50px;
+						}
+					}					
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.mea {
+		.lateralList {
+			.content {
+				.lines {
+					li {
+						&.line {
+							line-height: 55px;
+							height: 55px;
+						}
+
+						.part {
+
+							.partContent {
+								display: inline-block;
+								vertical-align: middle;
+								line-height: normal;
+							}
+						}
+
+						.nom {
+							font-size: 10px;	
+							width: calc( ~"100% - 50px - 90px - 120px - 50px");						
+						}
+
+						.app { 
+							width: 50px; 
+							.icon.tab:after { background-size: 30px; }
+						}
+
+						.date {
+							width: 90px;
+							font-size: 9px;					
+						}
+
+						.langs {
+							width: 120px;
+							padding: 0 10px;	
+							white-space: normal;
+							text-overflow: initial;
+							overflow: visible;
+							
+							.lang {
+								width: 20px; height: 20px;
+								line-height: 20px;
+								border-radius: 20px;
+								font-size: 9px;
+								margin: 2px;
+							}
+						}
+
+						.edit {
+							padding: 0;
+							width: 50px;								
+						}
+					}					
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,89 @@
+.message .title {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+.message .title h1 {
+  font-family: 'Lagoon-semi';
+  font-size: 26px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.message .title p {
+  font-family: 'Lagoon-semi', arial;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+}
+.message .inbox,
+.message .opened {
+  margin: 30px;
+}
+.message .inbox article,
+.message .opened article {
+  margin-bottom: 10px;
+  display: inline-block;
+  width: calc(50% - 20px);
+  background: white;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px;
+  transition: background 0.5s ease;
+}
+@media screen and (max-width: 960px) {
+  .message .inbox article,
+  .message .opened article {
+    width: 100%;
+  }
+}
+.message .inbox article:hover,
+.message .opened article:hover {
+  background: #e0e0e0;
+}
+.message .inbox article:nth-child(even),
+.message .opened article:nth-child(even) {
+  margin-left: 30px;
+}
+@media screen and (max-width: 960px) {
+  .message .inbox article:nth-child(even),
+  .message .opened article:nth-child(even) {
+    margin-left: 0px;
+  }
+}
+.message .inbox article img,
+.message .opened article img {
+  width: 60px;
+}
+.message .inbox article .content,
+.message .opened article .content {
+  vertical-align: middle;
+  position: relative;
+  display: inline-block;
+  width: calc(100% - 70px);
+}
+.message .inbox article .content h2,
+.message .opened article .content h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'Lagoon', arial;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 10px;
+}
+.message .inbox article .content .date,
+.message .opened article .content .date {
+  font-family: 'Lagoon', arial;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 10px;
+  color: #bbb;
+  float: right;
+}
+.message .inbox article .content .sender,
+.message .opened article .content .sender {
+  font-family: 'Lagoon-semi', arial;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  opacity: .7;
+  margin: 0;
+}
