@@ -14,11 +14,17 @@
             </div>
             <ul class="nav">
                 <li class="active">
+                    <a href="_home.php">ACCUEIL</a>
+                </li>
+                <li>
                     <span class="head"><a>INFOS TECHNIQUES</a></span>
-                    <p><a href="">Selleries</a></p>
-                    <p class="selected"><a href="">Specs bois</a></p>
-                    <p><a href="">Kit Mouillage</a></p>
-                    <p><a href="">Manuel CE</a></p>
+                    <p><a href="">ACTUALITÉs</a></p>
+                    <p><a href="">L'ÉQUIPE LAGOON</a></p>
+                    <p><a href="">STOCKS</a></p>
+                    <p><a href="">TARIFS</a></p>
+                    <p><a href="">LISTE DISTRIBUTEURS</a></p>
+                    <p><a href="">ACCÈS CHANTIERS</a></p>
+                    <p><a href="">REFÉRENCE BANCAIRE</a></p>
                 </li>
                 
                 <li>
@@ -26,7 +32,8 @@
                 </li>
                 
                 <li>
-                    <a href="_home.php">SUPPORTS MARKETING</a>
+                    <a>SUPPORTS MARKETING</a>
+                  
                 </li>
                 
                 <li>

@@ -49,26 +49,13 @@
     display: block;
   }
 }
-.stock-prices .row:last-of-type article {
-  margin-bottom: 0;
-}
-@media screen and (max-width: 960px) {
-  .stock-prices .row:last-of-type article {
-    margin-bottom: 30px;
-  }
-}
-@media screen and (max-width: 960px) {
-  .stock-prices .row:last-of-type article:last-of-type {
-    margin-bottom: 0px;
-  }
-}
 .stock-prices article {
   position: relative;
   text-align: center;
   border-bottom: 1px solid #d9d9d9;
   display: inline-block;
   background: white;
-  width: calc(33.3333% - 20px);
+  width: calc(33.3333% - 35px);
   padding: 30px;
   margin-left: 30px;
   margin-bottom: 30px;
@@ -76,12 +63,11 @@
 }
 @media screen and (max-width: 960px) {
   .stock-prices article {
-    width: 100%;
-    margin-left: 0;
+    width: calc(100% - 40px);
   }
 }
-.stock-prices article:nth-child(1) {
-  margin-left: 0px;
+.stock-prices article:nth-child(3) {
+  margin-left: 30px;
 }
 .stock-prices article img {
   height: 50px;
