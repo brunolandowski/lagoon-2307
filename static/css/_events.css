@@ -230,6 +230,7 @@
   background: #36a3dc;
 }
 .table table tr td {
+  line-height: 1.5;
   text-align: left;
   padding: 10px 30px;
 }
@@ -255,6 +256,7 @@
   text-align: center;
 }
 .table table tr .link span {
+  cursor: pointer;
   opacity: .5;
   width: 30px;
   height: 30px;
