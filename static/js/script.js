@@ -78,6 +78,12 @@ $( ".actu .popuplaunch .items button" ).click(function() {
     $("body").css("overflow","hidden");
 });
 
+$( ".digital .popuplaunch article button" ).click(function() {
+    var dataitemactu = $(this).closest("article").data("item");
+    $(".popup[data-item='"+ dataitemactu +"']").fadeIn();
+    $("body").css("overflow","hidden");
+});
+
 $( ".popup" ).click(function() {
    $(this).fadeOut();
    $("body").css("overflowY","scroll");

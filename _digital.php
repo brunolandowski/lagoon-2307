@@ -45,63 +45,69 @@ include "header.php";
 </div>
 
 
-<div class="modules-list">
+<div class="modules-list popuplaunch">
     <div class="title">
         <h2>MODULES 360°</h2>
     </div>
     <div class="row">
-       <article>
-            <h2>380</h2>
-            <a href="#"></a>
+       <article data-item="01">
+            <h3>380</h3>
+            <button></button>
         </article>
 
-        <article>
-            <h2>39</h2>
-            <a href="#"></a>
+        <article data-item="01">
+            <h3>39</h3>
+            <button></button>
         </article>
 
-        <article>
-            <h2>400</h2>
-            <a href="#"></a>
+        <article data-item="01">
+            <h3>400</h3>
+            <button></button>
         </article>
 
-        <article>
-            <h2>42</h2>
-            <a href="#"></a>
+        <article data-item="01">
+            <h3>42</h3>
+            <button></button>
         </article>
 
-        <article>
-            <h2>450S</h2>
-            <a href="#"></a>
+        <article  data-item="01">
+            <h3>450S</h3>
+            <button></button>
         </article>
 
-        <article>
-            <h2>450F</h2>
-            <a href="#"></a>
+        <article data-item="01">
+            <h3>450F</h3>
+            <button></button>
         </article>
 
-        <article>
-            <h2>52S</h2>
-            <a href="#"></a>
+        <article data-item="01">
+            <h3>52S</h3>
+           <button></button>
         </article>
 
-        <article>
-            <h2>52F</h2>
-            <a href="#"></a>
+        <article data-item="01">
+            <h3>52F</h3>
+            <button></button>
         </article>
 
-        <article>
-            <h2>560</h2>
-            <a href="#"></a>
+        <article data-item="01">
+            <h3>560</h3>
+            <button></button>
         </article>
 
-          <article>
-            <h2>620</h2>
-            <a href="#"></a>
+          <article data-item="01">
+            <h3>620</h3>
+            <button></button>
         </article>
     </div>
 </div>
 
+
+<div class="popup" data-item="01">
+    <div class="items">
+        <iframe src=""></iframe>
+    </div>
+</div>
 
 <?php 
 include "footer.php";
