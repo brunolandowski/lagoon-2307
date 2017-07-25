@@ -257,5 +257,6 @@ input[type=text].full {
   .pagination .page {
     min-width: 40px;
     font-size: 10px;
+    height: 40px;
   }
 }
