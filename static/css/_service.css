@@ -107,7 +107,7 @@
 }
 .service-client article h2 {
   font-family: 'Lagoon-semi';
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -270,7 +270,7 @@
 }
 .demandes .title h2 {
   font-family: 'Lagoon-semi';
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -359,7 +359,6 @@
 .demandes article h3 {
   font-family: 'Lagoon-semi';
   font-size: 14px;
-  font-weight: 100;
   margin-top: 0;
   margin-bottom: 20px;
 }

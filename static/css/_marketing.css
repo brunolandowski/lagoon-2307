@@ -89,7 +89,7 @@
 }
 .stock-prices article h2 {
   font-family: 'Lagoon-semi';
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 .stock-prices article span.date {
@@ -179,7 +179,7 @@
 .herobox .content article h3 {
   font-family: 'Lagoon-semi';
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 900;
   margin-top: 0;
   margin-bottom: 20px;
 }

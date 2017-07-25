@@ -16,6 +16,9 @@
   font-weight: 400;
   text-align: center;
 }
+.bloclist .content .peoples .category {
+  font-size: 16px;
+}
 .bloclist .peoples .group .peopleimg {
   background: #333;
   border-radius: 50px;
