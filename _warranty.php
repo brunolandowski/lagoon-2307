@@ -9,130 +9,41 @@ include "header.php";
 <div class="lateral-list">
     
     <ul>
-        <a href=""><li class="folder">ENREGISTREMENT</li></a>
+        <a href=""><li class="folder active">ENREGISTREMENT</li></a>
         <a href=""><li class="folder">MODE DE RÈGLEMENT</li></a>
-        <a href=""><li class="folder active">PROCÈS VERBAL DE LIVRAISON</li></a>     
+        <a href=""><li class="folder">PROCÈS VERBAL DE LIVRAISON</li></a>     
     </ul>
 </div>
 
-<div class="content">
-   
-    
-
-    <div class="title">
-        <h1>DEMANDES UTILISATEURS</h1>
+<div class="rightcol">
+   <div class="title">
+        <h1>ENREGISTREMENT</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a leo a erat condimentum rhoncus non ut arcu. Nulla ornare accumsan nisl sed sagittis.</p>
     </div>
     
-    <button><img src="static/img/common/specs/download-icon.png">PACK DOWNLOAD</button>
-
-    <div class="documents">
-        <article>
-            <span class="image-doc doc"></span>
-            <div class="container">
-                <span class="lang">
-                    <ul>
-                        <li>FR</li>
-                        <li>EN</li>
-                    </ul>
-                </span>
-                <h2>DEMANDE DE DEVIS - SEVENTY 7</h2>
-                <span class="date">12 Juin 2017</span>
-                
-            </div>
-        </article>
-
-        <article>
-            <span class="image-doc pdf"></span>
-            <div class="container">
-                <span class="lang">
-                    <ul>
-                        <li>FR</li>
-                        <li>EN</li>
-                    </ul>
-                </span>
-                <h2>DEMANDE DE DEVIS - SEVENTY 7</h2>
-                <span class="date">12 Juin 2017</span>
-                
-            </div>
-        </article>
-
-        <article>
-            <span class="image-doc ppt"></span>
-            <div class="container">
-                <span class="lang">
-                    <ul>
-                        <li>FR</li>
-                        <li>EN</li>
-                    </ul>
-                </span>
-                <h2>DEMANDE DE DEVIS - SEVENTY 7</h2>
-                <span class="date">12 Juin 2017</span>
-                
-            </div>
-        </article>
-
-        <article>
-            <span class="image-doc doc"></span>
-            <div class="container">
-                <span class="lang">
-                    <ul>
-                        <li>FR</li>
-                        <li>EN</li>
-                    </ul>
-                </span>
-                <h2>DEMANDE DE DEVIS - SEVENTY 7</h2>
-                <span class="date">12 Juin 2017</span>
-                
-            </div>
-        </article>
-
-        <article>
-            <span class="image-doc doc"></span>
-            <div class="container">
-                <span class="lang">
-                    <ul>
-                        <li>FR</li>
-                        <li>EN</li>
-                    </ul>
-                </span>
-                <h2>DEMANDE DE DEVIS - SEVENTY 7</h2>
-                <span class="date">12 Juin 2017</span>
-                
-            </div>
-        </article>
-
-        <article>
-            <span class="image-doc doc"></span>
-            <div class="container">
-                <span class="lang">
-                    <ul>
-                        <li>FR</li>
-                        <li>EN</li>
-                    </ul>
-                </span>
-                <h2>DEMANDE DE DEVIS - SEVENTY 7</h2>
-                <span class="date">12 Juin 2017</span>
-                
-            </div>
-        </article>
-
-        <article>
-            <span class="image-doc doc"></span>
-            <div class="container">
-                <span class="lang">
-                    <ul>
-                        <li>FR</li>
-                        <li>EN</li>
-                    </ul>
-                </span>
-                <h2>DEMANDE DE DEVIS - SEVENTY 7</h2>
-                <span class="date">12 Juin 2017</span>
-                
-            </div>
-        </article>
-
-    
+   
+      <div class="content">
+       <div class="row">
+            <h2>UTILISATION PAR LES DISTRIBUTEURS LAGOON</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu lorem eu eros luctus dictum ut luctus lacus. Nunc sodales sodales nibh eu pharetra. Nunc at luctus diam. In sollicitudin nulla purus, quis dictum metus efficitur quis. Donec facilisis molestie diam, placerat luctus dui iaculis nec. Vivamus sed mi dolor. Donec eget vestibulum ex. Duis t, vestibulum mi. Pendisse ac ante eu tortor aliquam molestie. Suspendisse nec augue eget diam condimentum lacinia eu vitae urna. Praesent at mi ac metus aliquet imperdiet blandit ut ex. <br><br>Morbi pharetra orci lectus, tincidunt blandit ex pulvinar id. Pellentesque dictum et massa at condimentum. Sed euismod arcu a quam volutpat maximus. Donec eget sapien in odio posuere rhoncus id et arcu.</p>
+            </article>
+          
+       </div>
+        <div class="row">
+                <h2>UTILISATION PAR LES DISTRIBUTEURS LAGOON</h2>
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu lorem eu eros luctus dictum ut luctus lacus. Nunc sodales sodales nibh eu pharetra. Nunc at luctus diam.<br><br>In sollicitudin nulla purus, quis dictum metus efficitur quis. Donec facilisis molestie diam, placerat luctus dui iaculis nec. Vivamus sed mi dolor. Donec eget vestibulum ex. Duis auctor rutrum tellus sit amet rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis, magna quis sagittis tincidunt, augue dolor luctus urna, congue convallis mi diam eu justo. Aliquam viverra odio gravida, porta est sit amet, vestibulum mi.Cras sed sa ut ex. Morbi pharetra orci lectus, tincidunt blandit ex pulvinar id. Pellentesque dictum et massa at condimentum. Sed euismod arcu a quam volutpat maximus. Donec eget sapien in odio posuere rhoncus id et arcu.</p>
+                </article>
+              
+           </div>
+        <div class="row">
+            <h2>UTILISATION PAR LES DISTRIBUTEURS LAGOON</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu lorem eu eros luctus dictum ut luctus lacus. Nunc sodales sodales nibh eu pharetra. Nunc at luctus diam. In sollicitudin nulla purus, quis dictum metus efficitur quis. Donec facilisis molestie diam, placerat luctus dui iaculis nec. Vivamus sed mi dolor. Donec eget vestibulum ex. Duis auctor rutr lectus, tincidunt blandit ex pulvinar id. Pellentesque dictum et massa at condimentum. Sed euismod arcu a quam volutpat maximus. Donec eget sapien in odio posuere rhoncus id et arcu.</p>
+            </article>
+          
+       </div>
     </div>
 </div>
         

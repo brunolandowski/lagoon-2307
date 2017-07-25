@@ -42,153 +42,65 @@
 .warranty .lateral-list ul a li:hover {
   background: #7bddde;
 }
-.warranty .content {
+.warranty .rightcol {
   padding-top: 50px;
   vertical-align: top;
   width: calc(100% - 255px);
   display: inline-block;
   text-align: center;
 }
-.warranty .content button {
-  cursor: pointer;
-  border: 0;
-  padding: 0 20px;
-  height: 40px;
-  line-height: 40px;
-  background-color: #52d2d4;
-  color: #fff;
-  font-size: 12px;
-  border-radius: 3px;
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-size: 13px;
-  color: #FFF;
-  text-transform: uppercase;
-  transition: background 0.5s ease;
-  margin-bottom: 20px;
+.warranty .rightcol .content {
+  border-bottom: 1px solid #d9d9d9;
+  margin: 0 30px 30px 30px;
+  padding: 30px;
+  width: calc(100% - 60px);
+  background: white;
 }
 @media screen and (max-width: 960px) {
-  .warranty .content button {
-    position: relative;
+  .warranty .rightcol .content {
+    width: calc(100% - 60px);
   }
 }
-.warranty .content button:hover {
-  background: #30c0c3;
+.warranty .rightcol .content .row {
+  font-size: 0;
+  border-top: 1px solid #f5f5f5;
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 0px;
 }
-.warranty .content button img {
-  height: 30px;
-  vertical-align: middle;
-  margin-right: 10px;
-  margin-top: -5px;
+.warranty .rightcol .content .row:first-of-type {
+  margin-top: 0;
+  border-top: none;
 }
-.warranty .content .title {
+.warranty .rightcol .content .row h2 {
+  font-family: 'Lagoon-semi';
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.warranty .rightcol .content .row p {
+  display: inline;
+  font-family: 'Lagoon-semi', arial;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  column-break-inside: avoid;
+}
+.warranty .rightcol .title {
   width: 55%;
   margin: 0px auto 30px auto;
   text-align: center;
 }
-.warranty .content .title h1 {
+.warranty .rightcol .title h1 {
   font-family: 'Lagoon-semi';
   font-size: 26px;
   font-weight: 100;
   margin-top: 0;
   margin-bottom: 20px;
 }
-.warranty .content .title p {
+.warranty .rightcol .title p {
   font-family: 'Lagoon-semi', arial;
   font-weight: 400;
   font-size: 10px;
   line-height: 18px;
-}
-.warranty .documents {
-  margin: 30px;
-  text-align: left;
-}
-.warranty .documents article {
-  cursor: pointer;
-  margin-bottom: 10px;
-  display: inline-block;
-  width: calc(50% - 20px);
-  background: white;
-  border-bottom: 1px solid #d9d9d9;
-  padding: 10px;
-  transition: background 0.5s ease;
-}
-@media screen and (max-width: 960px) {
-  .warranty .documents article {
-    width: 100%;
-  }
-}
-.warranty .documents article:hover {
-  background: #e0e0e0;
-}
-.warranty .documents article:nth-child(even) {
-  margin-left: 30px;
-}
-@media screen and (max-width: 960px) {
-  .warranty .documents article:nth-child(even) {
-    margin-left: 0px;
-  }
-}
-.warranty .documents article .image-doc {
-  width: 30px;
-  background: red;
-  height: 35px;
-  display: block;
-  float: left;
-  margin-right: 10px;
-  vertical-align: bottom;
-}
-.warranty .documents article .image-doc.ppt {
-  background: url("../img/common/specs/ppt-icon.png") no-repeat center;
-  background-size: 35px;
-}
-.warranty .documents article .image-doc.pdf {
-  background: url("../img/common/specs/pdf-icon.png") no-repeat center;
-  background-size: 35px;
-}
-.warranty .documents article .image-doc.doc {
-  background: url("../img/common/specs/doc-icon.png") no-repeat center;
-  background-size: 35px;
-}
-.warranty .documents article .container {
-  position: relative;
-  display: inline-block;
-  width: calc(100% - 40px);
-}
-.warranty .documents article .container h2 {
-  margin: 5px 0 0 0;
-  text-transform: uppercase;
-  font-family: 'Lagoon', arial;
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 10px;
-}
-.warranty .documents article .container .date {
-  font-family: 'Lagoon', arial;
-  font-weight: 400;
-  font-size: 8px;
-  line-height: 18px;
-  color: #999999;
-}
-.warranty .documents article .container .lang {
-  font-family: 'Lagoon-semi', arial;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 18px;
-  margin: 0;
-  float: right;
-}
-.warranty .documents article .container .lang ul {
-  margin: 0;
-}
-.warranty .documents article .container .lang ul li {
-  text-align: center;
-  line-height: 30px;
-  display: inline-block;
-  background: #CCCCCC;
-  color: white;
-  height: 30px;
-  width: 30px;
-  border-radius: 15px;
-  list-style: none;
 }
