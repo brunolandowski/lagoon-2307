@@ -22,7 +22,11 @@ include "header.php";
         </a>
     </div>
 
-    <div class="content">
+ 
+</div>
+
+
+   <div class="content">
        <div class="row">
             <h2>UTILISATION PAR LES DISTRIBUTEURS LAGOON</h2>
             <article>
@@ -45,7 +49,6 @@ include "header.php";
           
        </div>
     </div>
-</div>
 
 <?php 
 include "footer.php";
