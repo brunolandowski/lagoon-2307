@@ -3,41 +3,44 @@
 ?>
         <header>
             <div class="topBar">
-                <a href="" class="logo">PRO</a>
+                <a href="index.php" class="logo">PRO</a>
                 <span class="right-nav">
-                    <a href="_home.php"><div class="alert"><span>5</span></div></a>
-                    <a href="_home.php"><div class="message"><span>12</span></div></a>
-                    <a href="_home.php"><div class="user"></div></a>
+                    <a href="_actu.php"><div class="alert"><span>5</span></div></a>
+                    <a href="_message.php"><div class="message"><span>12</span></div></a>
+                    <a href="#"><div class="user"></div></a>
                 </span>
                 
 
             </div>
             <ul class="nav">
                 <li class="active">
-                    <a href="_home.php">ACCUEIL</a>
+                    <span class="head"><a>ACCUEIL</a></span>
+                    <p><a href="_actu.php">ACTUALITÉS</a></p>
+                    <p><a href="_reseller.php">DISTRIBUTEURS</a></p>
+                    <p><a href="#">ACCÈS CHANTIERS</a></p>
+                    <p><a href="_team.php">L'ÉQUIPE LAGOON</a></p>
                 </li>
                 <li>
-                    <span class="head"><a>INFOS TECHNIQUES</a></span>
-                    <p><a href="">ACTUALITÉs</a></p>
-                    <p><a href="">L'ÉQUIPE LAGOON</a></p>
-                    <p><a href="">STOCKS</a></p>
-                    <p><a href="">TARIFS</a></p>
-                    <p><a href="">LISTE DISTRIBUTEURS</a></p>
-                    <p><a href="">ACCÈS CHANTIERS</a></p>
-                    <p><a href="">REFÉRENCE BANCAIRE</a></p>
+                    <a href="_events.php">ÉVÈNEMENTS</a>
                 </li>
                 
                 <li>
-                    <a href="_home.php">ÉVÉNEMENTS</a>
+                    <a href="_specs.php">INFOS TECHNIQUES</a>
                 </li>
                 
                 <li>
-                    <a>SUPPORTS MARKETING</a>
-                  
+                    <span class="head"><a>SUPPORT MARKETING</a></span>
+                    <p><a href="_digital.php">SUPPORT DIGITAUX</a></p>
+                    <p><a href="_leaflet.php">BROCHURES & SPECS</a></p>
+                    <p><a href="_photo.php">PHOTOS</a></p>
+                    <p><a href="#">ANNONCES PRESSE</a></p>
+                    <p><a href="_review.php">REVUES DE PRESSE</a></p>
                 </li>
                 
                 <li>
-                    <a href="#">SERVICES CLIENT</a>
+                    <span class="head"><a>SERVICES CLIENTS</a></span>
+                    <p><a href="_warranty.php">GARANTIE</a></p>
+                    <p><a href="#">PIÈCES DÉTACHÉES / OPTIONS</a></p>                    
                 </li>
             </ul>
             
